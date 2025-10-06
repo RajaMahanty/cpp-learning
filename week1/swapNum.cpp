@@ -42,9 +42,9 @@ int main()
   std::cout << "Swapping using Multiplication & Division" << std::endl;
   if (num1 != 0 && num2 != 0)
   {
-    num1 = num1 + num2;
-    num2 = num1 - num2;
-    num1 = num1 - num2;
+    num1 = num1 * num2;
+    num2 = num1 / num2;
+    num1 = num1 / num2;
 
     std::cout << "Number in first variable: " << num1 << std::endl;
     std::cout << "Number in second variable: " << num2 << std::endl;
